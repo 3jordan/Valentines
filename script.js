@@ -36,7 +36,7 @@ function yesClicked() {
 
   if (noClickedBeforeYes) {
     const whyMessage = document.createElement('h2');
-    whyMessage.textContent = "Why'd you hit No?";
+    whyMessage.textContent = "I knew you would say yes :D";
     document.body.appendChild(whyMessage);
 
     whyMessage.style.fontSize = "2.5em";
